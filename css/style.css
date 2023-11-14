@@ -4,3 +4,67 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* generali */
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+:root{
+    --color-blue:#0084FD
+}
+
+.button{
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.white{
+    background-color: white;
+    color: black;
+}
+
+/* generali */
+
+/* header */
+
+header{
+    background-color: var(--color-blue) ;
+}
+
+.header-nav{
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburgher-icon{
+    color: white;
+}
+
+.menù-box{
+    display: none;
+}
+
+.menù-list{
+    display: flex;
+    align-items: center;
+    padding:10px 0px;
+}
+
+.menù-list > li{
+    padding: 0px 10px;
+}
+
+.menù-list > li > a{
+    color: white;
+}
+/* fine header top */
+
