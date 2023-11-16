@@ -169,6 +169,55 @@ a {
   line-height: 40px;
   margin: 20px auto;
 }
+/* fine sezione planning */
+
+/* sezione testimonials */
+
+.testimonials > h2,.testimonials > h3,.testimonials > p{
+  text-align: center;
+  padding-bottom: 20px; 
+}
+
+.testimonials > h2{
+  color: #9792E4;
+}
+
+.testimonials{
+  padding: 30px;
+}
+
+.mycol-3{
+  display: flex;
+  align-items: center;
+  background-color: #9792E4;
+  border-radius: 40px;
+  margin-bottom: 10px;
+  padding: 20px 10px;
+}
+
+.main-image-2{
+  width: 100px;
+  height: 100px  
+}
+
+.main-image-2 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 300px;
+}
+  
+
+.main-text-2{
+  width: 60%;
+  text-align: center;
+}
+
+.main-text-2 > *{
+  padding: 10px 10px;
+  color: white;
+}
+
 
 @media all and (min-width: 1160px) {
   .menù-box {
@@ -218,6 +267,23 @@ a {
     margin-left: 20px;
   }
 
+  .testimonials-container{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .testimonials > p{
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .main-image-2{
+    width: 200px;
+    height: 200px;
+  }
+
+  .mycol-3 > *{
+    margin: 0px 20px;
+  }
 }
 
 @media all and (min-width: 760px) {
