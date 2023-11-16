@@ -134,6 +134,42 @@ a {
   color: var(--color-blue);
 }
 
+/* inizio main */
+
+.planning{
+  background-color: #9792E4;
+  padding: 30px;
+}
+
+.main-image > img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.purple *{
+  color: white;
+  padding: 15px 0px;
+}
+
+.white{
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.white > *{
+  padding: 15px 0px;
+  text-align: center;
+}
+
+.arrow{
+  background-color:#9792E4 ;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  line-height: 40px;
+  margin: 20px auto;
+}
+
 @media all and (min-width: 1160px) {
   .menù-box {
     display: block;
