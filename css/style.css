@@ -183,9 +183,6 @@ a {
     display: flex;
     justify-content: center;
   }
-
-
-
   .header-nav {
     width: 80%;
   }
@@ -209,6 +206,18 @@ a {
   .header-text {
     width: 70%;
   }
+    
+  .planning-container{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .planning-container > .white{
+    height:50%;
+    margin-left: 20px;
+  }
+
 }
 
 @media all and (min-width: 760px) {
